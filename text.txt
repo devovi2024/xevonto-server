@@ -1,7 +1,14 @@
+install 
+-------------------
+npm install express express-mongo-sanitize xss-clean hpp helmet cors cookie-parser mongoose express-rate-limit
+
+
+
 
 model 
 --------------------------------
 1. BrandModel
+   ProductDetailsModel
 2. CartModel
 3. CategoryModel
 4. FeaturesModel
