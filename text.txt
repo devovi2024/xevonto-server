@@ -1,0 +1,23 @@
+
+model 
+--------------------------------
+1. BrandModel
+2. CartModel
+3. CategoryModel
+4. FeaturesModel
+5. invoiceModel
+6. InvoiceProductModel
+7. PaymentSettingModel
+8. ProductModel 
+9. ProductSliderModel
+10. ProfileModel
+11. ReviewModel
+12. WishListModel
+13. UserModel
+
+
+comand create all file vs code 
+-----------------------------------------
+PS D:\xevonto-server\src\models> "BrandModel","CartModel","CategoryModel","FeaturesModel","invoiceModel","InvoiceProductModel","PaymentSettingModel","ProductModel","ProductSliderModel","ProfileModel","ReviewModel" | ForEach-Object { "" | Out-File "$_.js" }
+>> 
+PS D:\xevonto-server\src\models> 
